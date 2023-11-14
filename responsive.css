@@ -1,6 +1,17 @@
-@media only screen and (max-width:426px) and (min-width:321px) {
+@media only screen and (min-width:427px) and (max-width:560px){
     .card{
         max-width: 500px;
+        width: 95%;
+        padding: 20px 15px;
+    }
+    .search button{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and (max-width:426px) and (min-width:321px) {
+    .card{
+        max-width: 600px;
         width: 95%;
         padding: 20px 15px;
     }
@@ -8,8 +19,8 @@
         height: 45px;
     }
     .search button{
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     }
     .col i{
         font-size: 2.5em;
